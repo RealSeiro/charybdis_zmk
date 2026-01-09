@@ -154,11 +154,6 @@
             bindings = <&tog 2>;
             key-positions = <0 11 47 36>;
         };
-
-        soft_off {
-            bindings = <&soft_off>;
-            key-positions = <0 11 54 55>;
-        };
     };
 
     behaviors {
