@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  QWERTY: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACK SPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, NUBS, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, RIGHT
-      SHIFT, LCTRL, Z, X, C, V, B, N, M, ',', ., /, '''', LEFT WIN, LEFT ALT, SPACE, SPACE, BACK SPACE, FUNC, SPACE, FUNC]
+  QWERTY: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACK SPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, NUBS, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
+    LCTRL, Z, X, C, V, B, N, M, ',', ., /, RSHIFT, LEFT WIN, LEFT ALT, FUNC, BACK SPACE, ENTER, LCTRL, SPACE, SPACE]
   FUNC:
   - F1
   - F2
@@ -15,7 +15,7 @@ layers:
   - F10
   - '-'
   - +
-  - TAB
+  - {t: ▽, type: trans}
   - Q
   - W
   - UP
@@ -27,7 +27,7 @@ layers:
   - '['
   - ']'
   - \
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - A
   - LEFT
   - DOWN
@@ -37,28 +37,28 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - ;
-  - RIGHT SHIFT
-  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
   - V
   - SCROLL DOWN
   - PG DN
-  - SPACE
-  - ','
-  - .
-  - /
-  - ''''
-  - LEFT WIN
-  - LEFT ALT
-  - SPACE
-  - SPACE
-  - BACK SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - SPACE
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   kitty: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
     '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 combos:
