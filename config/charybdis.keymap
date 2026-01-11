@@ -67,6 +67,10 @@
         time-to-live-ms = <750>;
     };
 
+    &msc {
+        time-to-max-speed-ms = <100>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
