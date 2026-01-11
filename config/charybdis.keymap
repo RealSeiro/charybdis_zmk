@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &msc {
-    time-to-max-speed-ms = <100>;
+    time-to-max-speed-ms = <0>;
 };
 
 / {
