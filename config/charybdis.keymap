@@ -105,14 +105,14 @@
             key-positions = <38 39 40>;
         };
 
-        CAPZ {
+        CAPSX {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <24 25>;
+            key-positions = <24 36>;
         };
 
         APOSX {
             bindings = <&kp APOS>;
-            key-positions = <34 33>;
+            key-positions = <31 35>;
         };
 
         ENTERY {
@@ -132,22 +132,22 @@
 
         LBKTX {
             bindings = <&kp LBKT>;
-            key-positions = <20 21>;
+            key-positions = <31 22>;
         };
 
         RBKTX {
             bindings = <&kp RBKT>;
-            key-positions = <21 22>;
+            key-positions = <32 23>;
         };
 
         MINUSX {
             bindings = <&kp MINUS>;
-            key-positions = <8 9>;
+            key-positions = <31 10>;
         };
 
         PLUSX {
             bindings = <&kp EQUAL>;
-            key-positions = <9 10>;
+            key-positions = <31 11>;
         };
 
         DELETEX {
@@ -167,7 +167,7 @@
 
         WinLX {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <36 37>;
+            key-positions = <48 49>;
         };
 
         GraveX {
@@ -203,6 +203,16 @@
         BackR {
             bindings = <&mkp MB4>;
             key-positions = <52 51>;
+        };
+
+        SpaceR {
+            bindings = <&kp SPACE>;
+            key-positions = <31 32 33>;
+        };
+
+        SpaceL {
+            bindings = <&kp SPACE>;
+            key-positions = <26 27 28>;
         };
     };
 
@@ -241,8 +251,8 @@
             bindings = <
 &kp ESCAPE      &kp N1  &kp N2  &kp N3     &kp N4        &kp N5            &kp N6          &kp N7        &kp N8     &kp N9   &kp N0     &kp BACKSPACE
 &kp TAB         &kp Q   &kp W   &kp E      &kp R         &kp T             &kp Y           &kp U         &kp I      &kp O    &kp P      &kp NUBS
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D      &kp F         &kp G             &kp H           &kp J         &kp K      &kp L    &kp SEMI   &kp RIGHT_SHIFT
-&kp LCTRL       &kp Z   &kp X   &kp C      &kp V         &kp B             &kp N           &kp M         &kp COMMA  &kp DOT  &kp SLASH  &kp ENTER
+&kp LCTRL       &kp A   &kp S   &kp D      &kp F         &kp G             &kp H           &kp J         &kp K      &kp L    &kp SEMI   &kp ENTER
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C      &kp V         &kp B             &kp N           &kp M         &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT
                                 &kp SPACE  &kp SPACE     &msc SCRL_UP      &kp SPACE       &msc SCRL_UP
                                            &kp LEFT_ALT  &msc SCRL_DOWN    &msc SCRL_DOWN
             >;
